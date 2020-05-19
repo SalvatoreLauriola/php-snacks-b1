@@ -43,12 +43,12 @@ $matches = [
 ?>
 
 <h1>I risultati della partita sono:</h1>
-
+<!-- loop squadre -->
 
 <ul>
     <?php for ($i = 0; $i < count($matches); $i++ ){?>
         <li>
-            <?php echo $matches[$i]['Casa'] . ' ' .  $matches[$i]['Ospiti'] ?> - <?php echo $matches[$i]['Ospiti']; ?> - 
+            <?php echo $matches[$i]['Casa'] . ' ' .  $matches[$i]['Ospiti'] ?> - 
             <?php echo $matches[$i]['PunteggioCasa']; ?> - <?php echo $matches[$i]['PunteggioOspiti']; ?>
 
         </li>
